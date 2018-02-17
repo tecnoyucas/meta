@@ -15,5 +15,6 @@ Repo about discussions and resources for TecnoYucas
 
 # Who's involved?
 - [List of contributors by commits](https://github.com/tecnoyucas/meta/graphs/contributors).
+- [Talk to us on Gitter!](https://gitter.im/tecnoyucas).
 
 ![logo_400x400](https://user-images.githubusercontent.com/417016/36344515-8b373d1e-13e9-11e8-829d-d8fe76e3da75.png)
