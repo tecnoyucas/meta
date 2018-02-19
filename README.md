@@ -10,6 +10,7 @@ Repo about discussions and resources for TecnoYucas
 - [New Format](https://github.com/tecnoyucas/meta/issues/4)
 - [Guidelines for our Github Projects](https://github.com/tecnoyucas/meta/issues/10)
 - [Github Guidelines for Publications](https://github.com/tecnoyucas/meta/issues/17)
+- [Our Goals](https://github.com/tecnoyucas/meta/issues/20)
 
 # Quick access to these and other issues:
 - [Meta issues](https://github.com/tecnoyucas/meta/labels/meta).
