@@ -1,0 +1,21 @@
+{
+  "name": "tecnoyucas-meta",
+  "version": "0.0.0",
+  "description": "Repo about discussions and resources for TecnoYucas",
+  "scripts": {
+    "duti": "duti",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecnoyucas/meta.git"
+  },
+  "author": "Daniel Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tecnoyucas/meta/issues"
+  },
+  "homepage": "https://github.com/tecnoyucas/meta#readme",
+  "devDependencies": {
+    "duti": "^0.9.3",
+  }
+}
