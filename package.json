@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Repo about discussions and resources for TecnoYucas",
   "scripts": {
-    "duti": "duti",
+    "duti": "duti"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/tecnoyucas/meta#readme",
   "devDependencies": {
-    "duti": "^0.9.3",
+    "duti": "^0.9.3"
   }
 }
