@@ -3,6 +3,15 @@ jobs:
   build:
     steps:
       - checkout
+      - restore_cache:
+          key: dependency-cache
+      - run:
+          name: install
+          command: npm install
+      - save_cache:
+          key: dependency-cache
+          paths:
+            - ./node_modules
       - run:
           name: danger
           command: npm run duti
