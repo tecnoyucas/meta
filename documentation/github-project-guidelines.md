@@ -21,7 +21,7 @@ merged branch, this would help on issue completion agreement).
   and the state of it).
 - Please try not to create huge issues, make them as short and clear
   scoped as possible. If you need some sort of complex issue, please
-  brake it down into smaller pieces.
+  break it down into smaller pieces.
 
 ### The workflow
 
