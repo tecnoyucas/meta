@@ -25,7 +25,8 @@ jobs:
       - run:
           name: Maybe Update the Changelog
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            lastCommitMessage=$(git log -1 --pretty=%B)
+            if [ "${CIRCLE_BRANCH}" == "master" && "${lastCommitMessage}" != "CHANGELOG.md updated" ]; then
               npm run changelog
               git commit -am "CHANGELOG.md updated" && git push
             fi
