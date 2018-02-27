@@ -1,0 +1,31 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.7
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache
+      - run:
+          name: install
+          command: npm install
+      - save_cache:
+          key: dependency-cache
+          paths:
+            - ./node_modules
+      - run:
+          name: pre-danger
+          command: git config user.email "sadasant@gmail.com" && git config user.name "sadasant" && git config push.default upstream && git branch -u origin/$CIRCLE_BRANCH
+          when: always
+      - run:
+          name: danger
+          command: npm run danger ci
+          when: always
+      - run:
+          name: Maybe Update the Changelog
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              npm run changelog
+              git commit -am "CHANGELOG.md updated" && git push
+            fi
